@@ -50,7 +50,7 @@ const NextButton = styled.div`
 
 function Navigatior(props) {
   const [extendNavbar, setExtendNavbar] = useState(false);
-  const [move, setMove] = useState(false);
+  // const [move, setMove] = useState(false);
 
   const hamburgerClick = () => {
     setExtendNavbar(!extendNavbar);
@@ -60,7 +60,7 @@ function Navigatior(props) {
       <HamburgerButton onClick={hamburgerClick}>
         {extendNavbar ? <>&#10005;</> : <> &#9776;</>}
       </HamburgerButton>
-      <NavList move={move} extendNavbar={extendNavbar}>
+      <NavList extendNavbar={extendNavbar}>
         <Tab>
           <Link to="/intro">
             <NextButton>intro</NextButton>

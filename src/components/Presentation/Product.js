@@ -71,7 +71,10 @@ function Model({ open, hinge, ...props }) {
     <group
       ref={group}
       {...props}
-      onPointerOver={(e) => (e.stopPropagation(), setHovered(true))}
+      onPointerOver={(e) => {
+        e.stopPropagation();
+        setHovered(true);
+      }}
       onPointerOut={(e) => setHovered(false)}
       dispose={null}
     >
@@ -148,7 +151,10 @@ export default function Product() {
           <Suspense fallback={null}>
             <group
               rotation={[0, Math.PI, 0]}
-              onClick={(e) => (e.stopPropagation(), setOpen(!open))}
+              onClick={(e) => {
+                e.stopPropagation();
+                setOpen(!open);
+              }}
             >
               <Model
                 open={open}
