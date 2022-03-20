@@ -35,19 +35,18 @@ const Title = styled.h1`
 
 const SubTitleBox = styled.div`
   width: 100vw;
-  padding-top: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 200px;
   display: flex;
   justify-content: space-around;
 `;
 
 const SubTitle = styled.h2`
-  position: relative;
-  top: 0px;
-  left: 0px;
-  padding: 10px;
   font-weight: 600;
-  font-size: 3em;
-  margin: 0;
+  font-size: 1.5em;
+  margin: 50px;
   color: peru;
   /* line-height: 0.6em; */
   letter-spacing: -2px;
@@ -103,10 +102,14 @@ export default function About() {
         <div>
           <SubTitle>
             <div>Hello What the hell</div>
+            <div>Hello What the hell</div>
           </SubTitle>
         </div>
         <div>
           <SubTitle>
+            <div>Hello What the hell</div>
+            <div>Hello What the hell</div>
+            <div>Hello What the hell</div>
             <div>Hello What the hell</div>
           </SubTitle>
         </div>
