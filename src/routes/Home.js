@@ -1,9 +1,9 @@
-import Intro from "../components/Presentation/Intro";
+import About from "../components/Presentation/About";
 
 function Home(props) {
   return (
     <>
-      <Intro></Intro>
+      <About></About>
     </>
   );
 }

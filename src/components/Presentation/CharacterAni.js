@@ -52,22 +52,6 @@ export default function CharacterAni() {
   return (
     <>
       <div>
-        <TeamMemberBox>
-          <TeamMember>
-            <TeamMemberFace></TeamMemberFace>
-          </TeamMember>
-          <TeamMember>
-            <TeamMemberFace></TeamMemberFace>
-          </TeamMember>
-          <TeamMember>
-            <TeamMemberFace></TeamMemberFace>
-          </TeamMember>
-          <TeamMember>
-            <TeamMemberFace></TeamMemberFace>
-          </TeamMember>
-        </TeamMemberBox>
-      </div>
-      <div>
         <Canvas
           camera={{ position: [2, 0, 12.25], fov: 15 }}
           style={{

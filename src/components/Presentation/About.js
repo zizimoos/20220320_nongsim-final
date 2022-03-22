@@ -37,7 +37,7 @@ const SubTitleBox = styled.div`
   width: 100vw;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -150px;
   margin-top: 200px;
   display: flex;
   justify-content: space-around;
@@ -51,6 +51,9 @@ const SubTitle = styled.h2`
   /* line-height: 0.6em; */
   letter-spacing: -2px;
   text-align: left;
+  div {
+    margin-top: 30px;
+  }
 `;
 
 const NextButton = styled.button`
@@ -101,17 +104,14 @@ export default function About() {
       <SubTitleBox>
         <div>
           <SubTitle>
-            <div>Hello What the hell</div>
-            <div>Hello What the hell</div>
+            <div>A better way to gather</div>
+            <div>Make virtual interactions more human</div>
+            <div>Do more than just talk</div>
+            <div>Bring your space to life</div>
           </SubTitle>
         </div>
         <div>
-          <SubTitle>
-            <div>Hello What the hell</div>
-            <div>Hello What the hell</div>
-            <div>Hello What the hell</div>
-            <div>Hello What the hell</div>
-          </SubTitle>
+          <SubTitle></SubTitle>
         </div>
       </SubTitleBox>
       <Canvas dpr={[1.5, 2]} linear shadows>

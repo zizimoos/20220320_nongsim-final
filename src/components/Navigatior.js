@@ -62,11 +62,6 @@ function Navigatior(props) {
       </HamburgerButton>
       <NavList extendNavbar={extendNavbar}>
         <Tab>
-          <Link to="/intro">
-            <NextButton>intro</NextButton>
-          </Link>
-        </Tab>
-        <Tab>
           <Link to="/about">
             <NextButton>about</NextButton>
           </Link>
